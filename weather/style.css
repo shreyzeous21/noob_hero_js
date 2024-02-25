@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background: #000000;
+  color: #ffffff;
+}
+.card-section {
+  max-width: 500px;
+  width: 90%;
+  margin: 100px auto 0;
+  background-color: rgb(182, 205, 224);
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  border-radius:45%;
+  border: 0;
+  outline: 0;
+}
+
+
+.search-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 100%;
+  padding: 10px 25px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background-color: #ebfffc;
+  color: #555;
+  height: 60px;
+  flex: 1;
+  margin: 0px 16px 0px 0px;
+  font-style: italic;
+}
